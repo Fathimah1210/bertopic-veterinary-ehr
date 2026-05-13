@@ -4,7 +4,11 @@ Topic modeling and statistical analysis of veterinary consultation narratives fr
 
 ## Overview
 
-This project applies BERTopic to veterinary clinical narratives to discover latent topics in unstructured EHR data, identify patterns across different consultation types, perform statistical association analysis using Odds Ratios, and analyze temporal trends in clinical data.
+This project applies unsupervised machine learning to discover hidden patterns in veterinary clinical notes (veterinary medical records) using BERTopic, a modern transformer-based topic modeling method. This implementation draws on the methodology of Noble et al. (2026), who applied a similar approach to over one million dog medical records in the UK.
+
+Veterinarians create free-text narrative notes detailing symptoms, examinations, and treatments after each consultation at a veterinary clinic. While this data is incredibly rich in information, it is difficult to manually evaluate on a large scale.
+
+This method aims to answer the question of whether an algorithm, without prior labeling, can automatically identify significant clinical problems from thousands of such records.
 
 ## Dataset
 
